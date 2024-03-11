@@ -1,0 +1,9 @@
+print("Digite uma string")
+entrada = input()
+
+string_invertida = ""
+
+for i in range(len(entrada) - 1, -1, -1):
+    string_invertida += entrada[i]
+
+print("A string invertida é:", string_invertida)
