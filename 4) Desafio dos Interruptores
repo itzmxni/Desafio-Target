@@ -1,0 +1,10 @@
+1. Ligaria os interruptores A e B e iria para a sala 1. Caso a lâmpada estivesse apagada, o interruptor correto seria o C.
+2. Caso a lâmpada estivesse acesa:
+    2.1. Voltaria para a sala principal, desligaria um dos interruptores, ligaria o interruptor C, esperaria um pouco, desligaria e iria para a sala 2.
+    2.2. Caso a lâmpada da sala 2 estivesse acesa, assumiria que a da sala 1 seria do interruptor que foi apagado e a da sala 3 a do C.
+    2.3. Caso a lâmpada da sala 2 estivesse apagada e fria, assumiria que seria do interruptor apagado primeiro e na sala 3 seria do C.
+    2.3. Caso a lâmpada estivesse apagada e quente, ela seria do interruptor C.
+3. Caso a lâmpada estivesse apagada:
+    3.1. Assumiria que a sala 1 era correspondente ao interruptor C.
+    3.2. Voltaria para a sala principal, desligaria um dos interruptores e iria para a sala 2.
+    3.3. Caso a lâmpada da sala 2 também estivesse apagada, assumiria que a lâmpada correspondente seria a que eu havia desligado e, consequentemente, a outra sala seria a do interruptor ligado.
