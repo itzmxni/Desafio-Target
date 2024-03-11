@@ -1,0 +1,13 @@
+''
+De acordo com o código, o valor da variável SOMA é igual a 91
+''
+
+INDICE = 13
+SOMA = 0
+K = 0
+
+while K < INDICE:
+    K = K + 1
+    SOMA = SOMA + K
+
+print(SOMA)
